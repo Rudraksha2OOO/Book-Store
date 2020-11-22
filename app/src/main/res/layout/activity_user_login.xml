@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserLogin"
+    android:background="@drawable/backgrd5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="57dp"
+        android:text="USER LOGIN"
+        android:textSize="34sp"
+        android:textStyle="italic|bold"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="199dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Username : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/eduluname"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:hint="Enter your Username"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edulpass"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Enter your Password"
+            android:inputType="textPassword" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnulback"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnulsubmit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnulclear"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="CLEAR" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

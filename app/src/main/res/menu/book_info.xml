@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/addbook"
+        android:title="ADD BOOKS"/>
+
+    <item android:id="@+id/searchbook"
+        android:title="SEARCH BOOK"/>
+
+    <item android:id="@+id/editbook"
+        android:title="EDIT BOOK INFO"/>
+
+    <item android:id="@+id/removebook"
+        android:title="REMOVE BOOK"/>
+
+    <item android:id="@+id/viewallbook"
+        android:title="VIEW ALL BOOKS"/>
+
+</menu>

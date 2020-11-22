@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrd5"
+    tools:context=".BookInfo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="BOOK INFORMATION"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="463dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvbookid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book ID : "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edbookid"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Enter Book ID" />
+
+        <TextView
+            android:id="@+id/tvbookname"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Book Name : "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edbookname"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:hint="Enter Book Name" />
+
+        <TextView
+            android:id="@+id/tvauthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Author : "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edauthor"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Enter Author Name" />
+
+        <TextView
+            android:id="@+id/tvcategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Category : "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edcategory"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Enter Book Category" />
+
+        <TextView
+            android:id="@+id/tvprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Price : "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edprice"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Enter Book Price" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnbback"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnbsubmit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnbclear"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="CLEAR"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

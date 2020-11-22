@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminOperations"
+    android:background="@drawable/backgrd3"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="ADMIN OPERATIONS"
+        android:textSize="39sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnbookinfo"
+        android:layout_width="397dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="138dp"
+        android:text="BOOK INFORMATION"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnuserinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:layout_below="@+id/btnbookinfo"
+        android:layout_marginTop="54dp"
+        android:text="USER INFORMATION"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bback"
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:layout_below="@+id/btnuserinfo"
+        android:layout_marginTop="54dp"
+        android:text="BACK"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

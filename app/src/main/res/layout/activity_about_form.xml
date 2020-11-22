@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutForm"
+    android:orientation="vertical"
+    android:background="@drawable/backgrd5">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="57dp"
+        android:text="ABOUT"
+        android:textSize="34sp"
+        android:textStyle="italic|bold"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="335dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Welcome to BookStore Management System.
+A reliable and efficient Android application for a wide range of books.This application allows the admin/owner to add,manage variety of books for it's customers.
+Also admin has authority to manage user's profile/account.
+It's a convenient app for users who have interest in books.
+All they have to do is to get registered in application,
+get logged in and then search for their desired books.
+In this way,users can get rid of traditional way of spending their valuable time for visiting
+and searching for desired books in libraries or book stores giving it a portal way to trading of books."
+            android:textSize="28dp"/>
+    </ScrollView>
+
+
+
+
+
+    <Button
+        android:id="@+id/btnaback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+
+</LinearLayout>

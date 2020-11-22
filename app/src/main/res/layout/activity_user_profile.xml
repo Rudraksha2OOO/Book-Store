@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile"
+    android:orientation="vertical"
+    android:background="@drawable/backgrd5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="USER PROFILE"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User ID : "
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eduid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter User ID" />
+        <TextView
+            android:id="@+id/tufirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name : "
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edufirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter First Name" />
+
+        <TextView
+            android:id="@+id/tulastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name : "
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edulastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Last Name" />
+
+        <TextView
+            android:id="@+id/tucontactno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact No : "
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/educontactno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Contact Number" />
+
+        <TextView
+            android:id="@+id/tuemailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email ID  : "
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eduemailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email Id" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username  : "
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eduuname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Username" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password : "
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edupasswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnupback"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnupclear"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnupsubmit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
